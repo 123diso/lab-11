@@ -9,5 +9,15 @@ export const traerTienda = async () => {
 // export class producto
 
 export class producto {
-    
+    imagen = ""
+    title =""
+
+    constructor(image, title){
+        this.imagen = image;
+        this.title = title;
+    }
+}
+
+render () {
+    const div = document.createElement('div')
 }
